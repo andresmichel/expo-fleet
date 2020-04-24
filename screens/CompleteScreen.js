@@ -12,7 +12,7 @@ export default function CompleteScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fafafa',
+        backgroundColor: '#fff',
     },
     contentContainer: {
         paddingTop: 15,

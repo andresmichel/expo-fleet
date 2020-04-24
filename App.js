@@ -49,7 +49,7 @@ export default function App(props) {
         return (
             <View style={styles.container}>
                 {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
-                <NavigationContainer ref={containerRef} initialState={initialNavigationState}>
+                <NavigationContainer ref={containerRef} initialState={initialNavigationState} theme={{ colors: { background: '#fff' } }}>
                     <Stack.Navigator headerMode={'none'}>
                         <Stack.Screen name="Root" component={BottomTabNavigator} />
                     </Stack.Navigator>
